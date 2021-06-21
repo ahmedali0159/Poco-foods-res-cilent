@@ -2,8 +2,6 @@ import React from 'react'
 import {Link} from 'react-router-dom';
 import './Header.css';
 import logo from '../../images/logo_footer.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCartArrowDown } from '@fortawesome/free-solid-svg-icons'
 
 function Header() {
     return (
@@ -15,9 +13,9 @@ function Header() {
 
                 <ul className="navbar-nav align-items-center">
                     <li className="nav-item active">
-                        <Link className="nav-link"><FontAwesomeIcon className="cart-icon" icon={faCartArrowDown}></FontAwesomeIcon></Link>
+                        <Link to="/food" className="nav-link">Food Item</Link>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item active">
                         <Link className="nav-link">Login</Link>
                     </li>
                     <li className="nav-item">
