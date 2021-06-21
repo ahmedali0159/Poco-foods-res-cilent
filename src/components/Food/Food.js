@@ -1,9 +1,23 @@
 //feature 1
-import React from 'react'
+import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import logo from '../../images/logo_footer.png';
+import data from '../../Data.json';
+import './Food.css';
+import Piece from '../Piece/Piece';
 
-function Food() {
+class Food extends Component {
+    constructor(){
+        super();
+        this.state = {
+            foods: data.foods,
+            size: "",
+            sort: ""
+        };
+    }
+    render(){
+
+   
     return (
         <div className="grid-container">
             <nav className="navbar navbar-expand navbar-light bg-white py-2">
@@ -19,13 +33,21 @@ function Food() {
                 </div>
                 </nav>
                 <main>
-                    Food List
+                    <div className="content">
+                        <div className="main">
+                            <Piece foods={this.state.foods} />
+                        </div>
+                        <div className='sidebar'>
+                            Cart Items
+                        </div>
+                    </div>
                 </main>
                 <footer>
                     
                 </footer>
         </div>
     )
+    }
 }
 
 export default Food
