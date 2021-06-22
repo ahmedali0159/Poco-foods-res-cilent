@@ -5,84 +5,84 @@
         "title": "Bagel And Cream Cheese",
         "image": "/image/breakfast1.png",
         "des": "How to dream with about your future",
-        "price": "18.00"
+        "price": "$18.00"
        },
        {
         "_id": "item2",
         "title": "Baked Chicken",
         "image": "/image/breakfast3.png",
         "des": "How to dream with about your future",
-        "price": "30.00"
+        "price": "$30.00"
        },
        {
         "_id": "item3",
         "title": "garlic butter salmon",
         "image": "/image/dinner6.png",
         "des": "How to dream with about your future",
-        "price": "14.00"
+        "price": "$14.00"
        },
        {
         "_id": "item4",
         "title": "Tarang-Rubbed-Salman",
         "image": "/image/lunch3.png",
         "des": "How to dream with about your future",
-        "price": "24.00"
+        "price": "$24.00"
        },
        {
         "_id": "item5",
         "title": "Healthy Meal Plan",
         "image": "/image/lunch1.png",
         "des": "How to dream with about your future",
-        "price": "25.00"
+        "price": "$25.00"
        },
        {
         "_id": "item6",
         "title": "Beef Steak",
         "image": "/image/lunch5.png",
         "des": "How to dream with about your future",
-        "price": "27.00"
+        "price": "$27.00"
        },
        {
         "_id": "item7",
         "title": "Fried chicken bento",
         "image": "/image/lunch2.png",
         "des": "How to dream with about your future",
-        "price": "9.00"
+        "price": "$9.00"
        },
        {
         "_id": "item8",
         "title": "Thie Steak",
         "image": "/image/lunch6.png",
         "des": "How to dream with about your future",
-        "price": "32.00"
+        "price": "$32.00"
        },
        {
         "_id": "item9",
         "title": "french fries with cheese",
         "image": "/image/dinner5.png",
         "des": "How to dream with about your future",
-        "price": "50.00"
+        "price": "$50.00"
        },
        {
         "_id": "item10",
         "title": "Salmon with grapefruit salad",
         "image": "/image/dinner2.png",
         "des": "How to dream with about your future",
-        "price": "4.00"
+        "price": "$4.00"
        },
        {
         "_id": "item11",
         "title": "lemony salmon piccata",
         "image": "/image/dinner3.png",
         "des": "How to dream with about your future",
-        "price": "38.00"
+        "price": "$38.00"
        },
        {
         "_id": "item12",
         "title": "pork tenderloin with quinoa",
         "image": "/image/dinner4.png",
         "des": "How to dream with about your future",
-        "price": "23.00"
+        "price": "$23.00"
        }
     ]
 }
