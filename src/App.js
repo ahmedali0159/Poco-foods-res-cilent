@@ -7,7 +7,7 @@ import {
 import './App.css';
 import Header from './components/Header/Header'
 import Banner from './components/Banner/Banner'
-import Food from "./components/Food/Food";
+import FoodItems from "./components/FoodItems/FoodItems";
 
 function App() {
   return (
@@ -21,8 +21,8 @@ function App() {
           <Route path="/search=:searchQuery">
               <Banner />
           </Route>
-          <Route path="/food">
-            <Food />
+          <Route path="/foodItems">
+            <FoodItems />
           </Route>
         </Switch>
     </Router>
