@@ -12,6 +12,7 @@ class FoodItems extends Component {
     super();
     this.state = {
       foods: data.foods,
+      cartItem:[],
       item: "",
       sort: "",
     };
