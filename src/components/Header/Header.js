@@ -13,7 +13,7 @@ function Header() {
 
                 <ul className="navbar-nav align-items-center">
                     <li className="nav-item active">
-                        <Link to="/food" className="nav-link">Food Item</Link>
+                        <Link to="/foodItems" className="nav-link">Food Item</Link>
                     </li>
                     <li className="nav-item active">
                         <Link className="nav-link">Login</Link>
